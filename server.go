@@ -25,7 +25,7 @@ import (
 )
 
 const (
-	VERSION                = "0.4.3"
+	VERSION                = "0.4.4"
 	APP                    = "go-cloud-k8s-info"
 	defaultProtocol        = "http"
 	defaultPort            = 8080
