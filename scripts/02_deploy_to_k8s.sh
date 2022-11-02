@@ -6,7 +6,7 @@ DOCKER_BIN="nerdctl"
 #DOCKER_BIN="nerdctl -n k8s.io"
 # you obviously will need to adjust next lines to your own favorite value :-)
 CONTAINER_REGISTRY="ghcr.io/"
-CONTAINER_REGISTRY_USER="lao-tseu-is-alive"
+CONTAINER_REGISTRY_USER="Momo67"
 CONTAINER_REGISTRY_ID="${CONTAINER_REGISTRY}${CONTAINER_REGISTRY_USER}"
 DEPLOYMENT_TEMPLATE="scripts/k8s-deployment_template.yml"
 K8S_DEPLOYMENT=deployment.yml

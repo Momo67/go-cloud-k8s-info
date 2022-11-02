@@ -48,7 +48,7 @@ spec:
           - 100
       containers:
       - name: go-info-server
-        image: ghcr.io/lao-tseu-is-alive/go-cloud-k8s-info:v0.4.1
+        image: ghcr.io/Momo67/go-cloud-k8s-info:v0.4.4
         imagePullPolicy: Always
         securityContext:
           allowPrivilegeEscalation: false
