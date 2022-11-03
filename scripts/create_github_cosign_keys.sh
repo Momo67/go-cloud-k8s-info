@@ -1,4 +1,4 @@
-GITHUB_TOKEN=PUT_YOUR_OWN_GITHUB_TOKEN_HERE COSIGN_PASSWORD=$(openssl rand -base64 32) cosign generate-key-pair github://lao-tseu-is-alive/go-cloud-k8s-info
+GITHUB_TOKEN=PUT_YOUR_OWN_GITHUB_TOKEN_HERE COSIGN_PASSWORD=$(openssl rand -base64 32) cosign generate-key-pair github://momo67/go-cloud-k8s-info
 # this command will create the above secrets in your github repository secrets
 # and will output :
 #   Password written to COSIGN_PASSWORD github actions secret
